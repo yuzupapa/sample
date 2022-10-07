@@ -1,0 +1,6 @@
+---
+- hosts: all
+  tasks:
+  - name: "サンプルプレイブック"
+    debug:
+      msg: "Hello AWX !"
